@@ -1,0 +1,15 @@
+/home/faouzi/Documents/CsharpRecap/bin/Debug/net6.0/CsharpRecap
+/home/faouzi/Documents/CsharpRecap/bin/Debug/net6.0/CsharpRecap.deps.json
+/home/faouzi/Documents/CsharpRecap/bin/Debug/net6.0/CsharpRecap.runtimeconfig.json
+/home/faouzi/Documents/CsharpRecap/bin/Debug/net6.0/CsharpRecap.dll
+/home/faouzi/Documents/CsharpRecap/bin/Debug/net6.0/ref/CsharpRecap.dll
+/home/faouzi/Documents/CsharpRecap/bin/Debug/net6.0/CsharpRecap.pdb
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.csproj.AssemblyReference.cache
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.GeneratedMSBuildEditorConfig.editorconfig
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.AssemblyInfoInputs.cache
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.AssemblyInfo.cs
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.csproj.CoreCompileInputs.cache
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.dll
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/ref/CsharpRecap.dll
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.pdb
+/home/faouzi/Documents/CsharpRecap/obj/Debug/net6.0/CsharpRecap.genruntimeconfig.cache
