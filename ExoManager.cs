@@ -12,17 +12,20 @@ public static class ExoManager
         new Exo04(), //byte.
         new Exo05(), //regex.
         new Exo06(), //enum.
-        new Exo07()  //obj.
+        new Exo07(), //obj. (eritage, override, interface, multi constructor)
+        new Exo08(), //type generic and dictionary.
+        new Exo09(), //obj2. (surcharge cast and operator, type generique, getter/setter)
+        new Exo10(), //json.
+        new Exo11() //try catch.
 
-        //https://www.w3schools.com/cs/cs_files.php
+        //read book about C# for search more idee to add.
 
-        //geter seter.
-        //dictionary.
-        //json. (write/read file, and create obj json on code)
-        //try, catch, finaly. (many catch and exception class creation)
-        //surcharge operator.
         //delegate and action.
         //thread.
+        //test unitaire.
+
+        //make a json class who generate a json string modulable (add atribute) and restitue it (?).
+
     };
 
 
