@@ -1,4 +1,6 @@
 
+using System.Threading.Tasks;
+
 public static class ExoManager
 {
     /// <summary>
@@ -12,19 +14,32 @@ public static class ExoManager
         new Exo04(), //byte.
         new Exo05(), //regex.
         new Exo06(), //enum.
-        new Exo07(), //obj. (eritage, override, interface, multi constructor)
+        new Exo07(), //obj. (eritage, override, interface, multi constructor, struct)
         new Exo08(), //type generic and dictionary.
-        new Exo09(), //obj2. (surcharge cast and operator, type generique, getter/setter)
+        new Exo09(), //obj2. (surcharge cast and operator, type generique, getter/setter, dynamicObject)
         new Exo10(), //json.
-        new Exo11() //try catch.
+        new Exo11(), //try catch.
+        new Exo12(), //pile and tas.
+        new Exo13(), //attribut.
+        new Exo14(), //function. (Action, Func, Delegate) ( + namespace)
+        new Exo15(), //yield
+        new Exo16(), //string builder.
+        new Exo17(), //string.
+        new Exo18(), //date.
+        new Exo19(), //entityFrameWork.
+        new Exo20(), //debug mode.
+        new Exo21() //Task, async and http call.
+        //page 207, conection DB.
 
-        //read book about C# for search more idee to add.
-
-        //delegate and action.
-        //thread.
+        //thread and event.
         //test unitaire.
 
-        //make a json class who generate a json string modulable (add atribute) and restitue it (?).
+
+        //make a json class who generate a json string modulable (add atribute) and restitue it (?). (maybe using dynamic obj)
+
+        //page 56, making excel process.
+        //page 91, generate code in code, (codeDom).
+        //page 94, arbre d'expression. (function arbre ?)
 
     };
 

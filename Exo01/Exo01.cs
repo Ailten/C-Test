@@ -1,4 +1,6 @@
 
+using System.Diagnostics;
+
 public class Exo01 : Exo
 {
     /// <summary>
@@ -12,5 +14,8 @@ public class Exo01 : Exo
         parameters.ForEach(param => Console.WriteLine(" - " + param));
 
         Console.WriteLine("--------------------------");
+
+
+        Debug.WriteLine("write on debug");
     }
 }

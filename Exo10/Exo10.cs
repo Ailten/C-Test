@@ -28,5 +28,9 @@ public class Exo10 : Exo
             sw.WriteLine(jsonStr);
         }
 
+
+        // some object can be marked [Serializable] (for mark it can be fold on a compact json or xml).
+        // also some parameter of object serializable can be mark [NonSerializable].
+
     }
 }

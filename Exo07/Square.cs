@@ -27,7 +27,7 @@ public class Square : Geometry
         return Math.Pow(length, 2);
     }
 
-    public override string getData()
+    public sealed override string getData() // heer sealed make getData unpossible to override for every child of square (last override on eritage).
     {
         string output = base.getData();
         output += ("\n" +

@@ -41,6 +41,7 @@ public class Exo02 : Exo
 
         // nullable.
         //int? myIntNullable = null; // add ? after type for make a variable nullable.
+        //myIntNullable.HasValue() // return a bool, true if the varable has a value.
 
 
         // constante.
@@ -49,6 +50,7 @@ public class Exo02 : Exo
 
         // var.
         //var myInt = 5; // take type of what set on it.
+        //dynamic myInt = 5; // like var but less verification from compilor (usefull for interact with JS or Python).
 
 
 
@@ -58,6 +60,7 @@ public class Exo02 : Exo
 
         int myInt = 65;
         Console.WriteLine($"type of int : {myInt.GetType()}");
+        Console.WriteLine($"type int : {typeof(int)}");
         Console.WriteLine($"cast int 65 to double : {(double)myInt}"); //cast.
         Console.WriteLine($"cast int 65 to string : {myInt.ToString()}");
         Console.WriteLine($"cast int 65 to char ascii : {(char)myInt}");

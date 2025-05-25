@@ -1,4 +1,6 @@
 
+using System.Dynamic;
+
 public class Exo09 : Exo
 {
     /// <summary>
@@ -31,6 +33,22 @@ public class Exo09 : Exo
         // verify data C.
         Console.WriteLine("surface Rect A+B ---");
         Console.WriteLine($"surface => {A.getSurface + B.getSurface}");
+
+
+
+        // example expandoObject (object modulable).
+        Console.WriteLine("--- dynamic object ---");
+        dynamic eo = new ExpandoObject();
+        eo.myModulableParameter = 5;
+        Console.WriteLine(eo.myModulableParameter);
+
+
+        // example dynamic object (from class maked).
+        Console.WriteLine("--- dynamic object (class maked) ---");
+        dynamic myDyna = new MyDynamicObj();
+        Console.WriteLine(myDyna.myParamterUnExisting);
+
+
 
     }
 }

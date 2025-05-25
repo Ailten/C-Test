@@ -42,5 +42,27 @@ public class Exo03 : Exo
             }
         }
 
+
+        // example for create file.
+        //var myFile = File.Create(path);
+        //File.Exists(path); // check if exit.
+        //File.Delete(path); // delete a file.
+        //File.Move(pathFrom, pathTo); // move file.
+        //myFile.MoveTo(pathTo); // move a file (call from a file instance).
+
+        // example for create directory.
+        //DirectoryInfo myDirectory = Directory.CreateDirectory(path);
+        //Directory.Exists(path); // check if exit.
+        //Directory.Delete(path); // delete a directory.
+        //Directory.Move(pathFrom, pathTo); // move a directory.
+        //myDirectory.MoveTo(pathTo); // move a directory (call from a directory instance).
+
+        // example path.
+        //string pathString = Path.Combine("C:\\User\\Documents", "myFile.txt"); // combine a path.
+        //Console.WriteLine(Path.GetPathRoot(pathString)); // get root directory. -> "C:\\"
+        //Console.WriteLine(Path.GetDirectoryName(pathString)); // get folder from string path. -> "C:\\User\\Documents"
+        //Console.WriteLine(Path.GetFileName(pathString)); // get file name from a string path. -> "myFile.txt"
+        //Console.WriteLine(Path.GetExtension(pathString)); // get extantion from string path. -> ".txt"
+
     }
 }
