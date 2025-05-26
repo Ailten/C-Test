@@ -70,4 +70,22 @@ public class SpecialRectangle
         return $"Rect => [l:{this.length}, w:{this.width}] => [{(double)this}]";
     }
 
+    /// <summary>
+    /// make an acessor by index to class. (can be call instance[0] for recup length attribute)
+    /// </summary>
+    /// <param name="index">index parameter</param>
+    /// <returns>the value length or with (depend on index send).</returns>
+    public double this[int index]
+    {
+        get
+        {
+            if (index == 0)
+                return this.getLength;
+            if (index == 1)
+                return this.getWidth;
+            else
+                throw new ElementNotFound();
+        }
+    }
+
 }

@@ -53,6 +53,15 @@ public class Exo02 : Exo
         //dynamic myInt = 5; // like var but less verification from compilor (usefull for interact with JS or Python).
 
 
+        // operator.
+        //&& // and.
+        //|| // or.
+        //<< // decal byte. (decale byte of value).
+        //?? // coalesce. (take second if is null).
+        //~ // complément. (inverce byte value 0 and 1).
+        //^ // or exclusif. (true only if dif and one is true).
+
+
 
         Console.WriteLine($"byte in an int : {sizeof(int)}");
         Console.WriteLine($"min value of an int : {int.MinValue}");

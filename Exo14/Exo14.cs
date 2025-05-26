@@ -65,7 +65,6 @@ public class Exo14 : Exo
         myD = new MyDelegate(this.MyLambda); // can be replace.
         myD(1, 2);
 
-        
     }
     public void MyFirstFunc(int a, int b)
     {

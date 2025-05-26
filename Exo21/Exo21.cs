@@ -22,6 +22,35 @@ public class Exo21 : Exo
 
         //await Task.WhenAll(myTaskOne, myTaskTwo); // wait for many task are all finish.
 
+        //Task myT = Task.Run(() => {}); // for create a task base on a lambda.
+        //Task<string> myT = Task.Run(() => { return "test"; }); // for create a task (with return value).
+        //myT.Status // get state of a Task : OnCanceled for is canceled, or OnFaulted for an Exception find on it.
+        //TaskFactory // class for create many task easily.
+        //Task.WaitAll(listOfTask) // make wait for end of many task.
+        //Task.WaitAny(listOfTask) // make wait for end of one task on the list (only one, the first who end).
+
+        /*/ -- Task Contuie With --
+        Task<string> myTParam = Task.Run(() => // process.
+        {
+            return "test";
+        });
+        myTParam.ContinueWith((result) => // add process before task end.
+        {
+            return result;
+        });
+        myTParam.ContinueWith((result) => // add process if find an exception.
+        {
+            return result;
+        }, TaskContinuationOptions.OnlyOnFaulted);
+        myTParam.ContinueWith((result) => // add process if canceled.
+        {
+            return result;
+        }, TaskContinuationOptions.OnlyOnCanceled);
+        //*/
+
+        //Parallel // class for manage many Task on loop.
+        //ParallelLoopState // class for manage many Task on loop (and can stop the loop). include Stop and Break.
+
     }
 
     /// <summary>

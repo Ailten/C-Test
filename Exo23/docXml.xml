@@ -1,0 +1,18 @@
+<biblio>
+    <shelf number="0">
+        <book id="0">
+            <name>Scary Movie</name>
+            <year>2000</year>
+        </book>
+        <book id="1">
+            <name>Titanic</name>
+            <year>1997</year>
+        </book>
+    </shelf>
+    <shelf number="1">
+    </shelf>
+    <shelf number="2">
+    </shelf>
+    <shelf number="3">
+    </shelf>
+</biblio>

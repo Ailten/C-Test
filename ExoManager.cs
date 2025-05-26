@@ -28,19 +28,15 @@ public static class ExoManager
         new Exo18(), //date.
         new Exo19(), //entityFrameWork.
         new Exo20(), //debug mode.
-        new Exo21() //Task, async and http call.
-        //page 207, conection DB.
-
-        //thread and event.
-        //test unitaire.
-
-
-        //make a json class who generate a json string modulable (add atribute) and restitue it (?). (maybe using dynamic obj)
-
-        //page 56, making excel process.
-        //page 91, generate code in code, (codeDom).
-        //page 94, arbre d'expression. (function arbre ?)
-
+        new Exo21(), //task, async and http call.
+        new Exo22(), //conection DB.
+        new Exo23(), //xml.
+        new Exo24(), //list.
+        new Exo25(), //thread.
+        new Exo26(), //lock.
+        new Exo27(), //goto.
+        new Exo28(), //event.
+        new Exo29() //test unitaire.
     };
 
 
