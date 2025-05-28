@@ -1,6 +1,10 @@
 
+// need NUnit or XUnit for making test unitaire !
+// run with "dotnet test"
 
 //[TestClass] // mark as class test.
+using System.Diagnostics;
+
 public class TestExo29
 {
     //[TestMethod] // mark as a methode for test.
@@ -16,7 +20,7 @@ public class TestExo29
         }
         catch (DivideByZeroException exception)
         {
-            //StringAssert.Contains(exception.Message, BankAccount.DebitAmountExceedsBalanceMessage);
+            Console.WriteLine($"exo29.divide exception : {exception.Message}");
         }
     }
 }

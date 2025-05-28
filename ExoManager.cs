@@ -36,7 +36,7 @@ public static class ExoManager
         new Exo26(), //lock.
         new Exo27(), //goto.
         new Exo28(), //event.
-        new Exo29() //test unitaire.
+        new Exo29()  //test unitaire.
     };
 
 
